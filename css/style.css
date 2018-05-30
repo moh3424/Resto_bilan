@@ -1,0 +1,96 @@
+body{
+    background:white;
+    width: 1060px;
+    margin: 0 auto;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+article{
+    /* min-height: 300px; */
+    padding-top: 150px;
+    width: 512px;
+    height: 518px;
+}
+blockquote, p{
+    padding-left: -200px;
+}
+.clear{
+    clear: both;
+}
+.center{
+    background-position: center;
+}
+nav{
+    height: 100px;
+}
+h2::before{                         
+    /* le tret au dessus de h1 */     
+    content: ""; 
+    height: 1px;     
+    width: 300px;     
+    background: black;     
+    display: block;     
+    margin: 0 auto;
+} 
+h3::after{                         
+    /* le tret au dessus de h1 */     
+    content: ""; 
+    height: 1px;     
+    width: 300px;     
+    background: black;     
+    display: block;     
+    margin: 0 auto;
+} 
+p::after{                         
+        /* le tret au dessus de h1 */     
+        content: ""; 
+        height: 1px;     
+        width: 500px;     
+        background: black;     
+        display: block;     
+        margin: 0 auto;
+} 
+P{
+    text-indent: 400px;
+} 
+header h4{
+    color: blueviolet;
+}
+blockquote{
+    text-align: center;
+    width: 200px;
+    float: right;
+} 
+h2::after{                          
+    /* le tret en dessous de h1 */ 
+    content: "";     
+    height: 1px;     
+    width: 300px;     
+    background: black;     
+    display: block;     
+    margin: 0 auto;
+}
+h4{
+    font-style: italic;
+}
+h2, h4{
+    text-align: center;
+}
+.displayem {
+    display: block;
+    text-align: center;
+}
+   
+footer{
+    height: 300px;
+    width: 300px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
