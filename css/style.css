@@ -1,12 +1,11 @@
 body{
-    background:wheat
-    ;
+    background:rgba(243, 237, 237, 0.905);
     width: 1060px;
     margin: 0 auto;
 }
 /* identiter conteneur de la page web */
 #conteneur{
-    background:white;
+    background: white;
     width: 1050px;
     margin: 0 auto;
 }
@@ -26,12 +25,8 @@ article{
     margin-top: 100px;
     line-height:30px;
     width: 510px;
-    height: 430px;
-    margin-left: 15px;
-}
-img{
-    width: 510px;
-    height: 530px;
+    height: 415px;
+    padding-left: 10px;
 }
 p{
     padding-right: 100px;
@@ -80,6 +75,10 @@ h3::after{
     display: block;     
     margin: 0 auto;
 } 
+img{
+    width: 530px;
+    height: 515px;
+}
 
 blockquote{
     /* text-align: center; */
@@ -129,7 +128,7 @@ footer{/* le bas de la page */
     background: url('../img/plan.png') no-repeat top;
     width: 300px;
     margin-left: 400px;
-    margin-bottom: 100px; 
+    margin-bottom: 150px; 
     display: inline-block;
     margin-right: 400px;
     padding-left: 10px;
