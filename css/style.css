@@ -1,11 +1,12 @@
 body{
-    background:white;
+    background:wheat
+    ;
     width: 1060px;
     margin: 0 auto;
 }
 /* identiter conteneur de la page web */
 #conteneur{
-    background: cornsilk;
+    background:white;
     width: 1050px;
     margin: 0 auto;
 }
@@ -25,7 +26,12 @@ article{
     margin-top: 100px;
     line-height:30px;
     width: 510px;
-    height: 415px;
+    height: 430px;
+    margin-left: 15px;
+}
+img{
+    width: 510px;
+    height: 530px;
 }
 p{
     padding-right: 100px;
@@ -123,7 +129,7 @@ footer{/* le bas de la page */
     background: url('../img/plan.png') no-repeat top;
     width: 300px;
     margin-left: 400px;
-    margin-bottom: 150px; 
+    margin-bottom: 100px; 
     display: inline-block;
     margin-right: 400px;
     padding-left: 10px;
