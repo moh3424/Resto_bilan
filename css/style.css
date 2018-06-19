@@ -1,18 +1,12 @@
 body{
-<<<<<<< HEAD
     background: cornsilk;
     width: 1000px ;
     height: auto;
-=======
-    background:rgba(243, 237, 237, 0.905);
-    width: 1060px;
->>>>>>> 8425adef92bb74b95e03eaed976ccb4c04b4c621
     margin: 0 auto;
 }
 /* identiter conteneur de la page web */
 #conteneur{
     background: white;
-<<<<<<< HEAD
     width: 100%;
     margin: 0 auto;
     height: auto;
@@ -22,9 +16,6 @@ body{
 }
 header{
     width: 30%;
-=======
-    width: 1050px;
->>>>>>> 8425adef92bb74b95e03eaed976ccb4c04b4c621
     margin: 0 auto;
 }
 header h4{
@@ -53,15 +44,9 @@ article{
     margin-left: 10px;
     margin-right: 40px;
     line-height:30px;
-<<<<<<< HEAD
     width: 450px;
     height: 450px;
     padding-top: 100px;
-=======
-    width: 510px;
-    height: 415px;
-    padding-left: 10px;
->>>>>>> 8425adef92bb74b95e03eaed976ccb4c04b4c621
 }
 section{
     width: 100%;
@@ -160,15 +145,7 @@ h3::after{
     background: black;     
     display: block;     
     margin: 0 auto;
-<<<<<<< HEAD
 }  */
-=======
-} 
-img{
-    width: 530px;
-    height: 515px;
-}
->>>>>>> 8425adef92bb74b95e03eaed976ccb4c04b4c621
 
 blockquote{
     text-align: center;
