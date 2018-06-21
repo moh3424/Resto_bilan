@@ -2,12 +2,12 @@ body{
     background:rgba(243, 237, 237, 0.905);
     width: 1060px;
     margin: 0 auto;
-    font-family: 'Cormorant Garamond', serif;    
+    font-family: 'Cormorant Garamond', serif;
 }
 /* identiter conteneur de la page web */
 #conteneur{
     background: white;
-    width: 10-5px;
+    width: 1065px;
     margin: 0 auto;
 }
 header h4{
@@ -101,7 +101,7 @@ h2::after{   /* le tret en dessous de h1 */
 strong{
     color:white;
     display: block; /* display sert à changer le comportement de strong  */
-    background: black;
+    background: #fff;
     line-height:30px; /* line height sert à redimensionner les marges interlignes  */
     width: 150px;
     height: 30px;
@@ -129,8 +129,8 @@ footer{/* le bas de la page */
     background: url('../img/plan.png') no-repeat top;
     width: 300px;
     margin-left: 400px;
-        margin-top:200px;
     margin-bottom: 150px; 
+    margin-top:200px;
     display: inline-block;
     margin-right: 400px;
     padding-left: 10px;
